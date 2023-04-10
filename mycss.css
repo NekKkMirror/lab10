@@ -1,0 +1,36 @@
+body {
+  background-color: lightsteelblue;
+  background-image: url('./bgpic.jpg');
+
+  /* изменяем позицию картинки и говорим, что будет находиться снизу */
+  background-position: bottom;
+
+  /* убираем повторяемость рисунка */
+  background-repeat: no-repeat;
+}
+
+p {
+  font-family: 14pt 'Times Cur', serif;
+  text-indent: 20;
+
+  /* изменяем интервал между строками для абзаца */
+  line-height: 20pt;
+
+  /* изменения цвета текста в абзаце */
+  color: #191717;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: blue;
+
+  /* для заголовка второго уровня указываем расстояние между буквами длинной в 1.5 пикслей */
+  letter-spacing: 1.5px;
+}
+
+img {
+  /* display: ; */
+}
